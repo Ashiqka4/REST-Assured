@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.*;
 
-public class TC7_Learning {
+public class TC7_Traveloka_API_IssueRequest {
 	
 	@Test
 	public void issueCheckRequest() {
