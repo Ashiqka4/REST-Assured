@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TC7_Learning">
+      <class name="tests.TC7_Traveloka_API_IssueRequest">
         <methods>
           <include name="issueCheckRequest"/>
         </methods>
-      </class> <!-- tests.TC7_Learning -->
+      </class> <!-- tests.TC7_Traveloka_API_IssueRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

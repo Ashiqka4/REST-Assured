@@ -8,7 +8,7 @@ import org.json.simple.JSONObject;
 
 public class TC4_PutPatchAndDeleteExamples {
 
-	@Test
+	//@Test
 	public void testPut() {
 		
 		JSONObject request = new JSONObject();
@@ -33,7 +33,6 @@ public class TC4_PutPatchAndDeleteExamples {
 		
 		JSONObject request = new JSONObject();
 		request.put("name", "Ashiq");
-		request.put("job", "Tester");
 		
 		baseURI = "https://reqres.in";
 		

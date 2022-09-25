@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class TC3_GetAndPostExamples {
 	
-	@Test
+	//@Test
 	public void testGet() {
 		
 		baseURI = "https://reqres.in/api/";
@@ -27,7 +27,7 @@ public class TC3_GetAndPostExamples {
 			log().all();
 	}
 	
-	//@Test
+	@Test
 	public void testPost() {
 		
 //		Map<String, Object> map = new HashMap<String, Object>();
@@ -41,13 +41,13 @@ public class TC3_GetAndPostExamples {
 		
 		JSONObject request = new JSONObject();
 		
-		request.put("name", "Ashiq");
+		request.put("name", "AshiqK");
 		request.put("job", "Tester");
 		System.out.println(request);
 		
 //		System.out.println(request.toJSONString());
 		
-		baseURI = "https://reqres.in";
+		baseURI = "https:/reqres.in";
 		
 		given().
 			header("Content-Type", "application/json"). // in case of headers

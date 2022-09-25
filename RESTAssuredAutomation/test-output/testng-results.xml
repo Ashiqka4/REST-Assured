@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-28T11:44:44 IST" name="Default suite" finished-at="2022-06-28T11:44:50 IST" duration-ms="6328">
+  <suite started-at="2022-08-31T12:12:57 IST" name="Default suite" finished-at="2022-08-31T12:13:09 IST" duration-ms="11046">
     <groups>
     </groups>
-    <test started-at="2022-06-28T11:44:44 IST" name="Default test" finished-at="2022-06-28T11:44:50 IST" duration-ms="6328">
-      <class name="tests.TC7_Learning">
-        <test-method signature="issueCheckRequest()[pri:0, instance:tests.TC7_Learning@20ce78ec]" started-at="2022-06-28T11:44:44 IST" name="issueCheckRequest" finished-at="2022-06-28T11:44:50 IST" duration-ms="6176" status="PASS">
+    <test started-at="2022-08-31T12:12:57 IST" name="Default test" finished-at="2022-08-31T12:13:09 IST" duration-ms="11046">
+      <class name="tests.TC7_Traveloka_API_IssueRequest">
+        <test-method signature="issueCheckRequest()[pri:0, instance:tests.TC7_Traveloka_API_IssueRequest@7714e963]" started-at="2022-08-31T12:12:58 IST" name="issueCheckRequest" finished-at="2022-08-31T12:13:08 IST" duration-ms="10832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- issueCheckRequest -->
-      </class> <!-- tests.TC7_Learning -->
+      </class> <!-- tests.TC7_Traveloka_API_IssueRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
